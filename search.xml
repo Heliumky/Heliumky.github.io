@@ -1,38 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>HWC</title>
-    <url>/2020/04/22/HWC/</url>
-    <content><![CDATA[]]></content>
-      <categories>
-        <category>Hexo</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>How to build a blog by using hexo</title>
-    <url>/2020/04/22/qcc/</url>
-    <content><![CDATA[<p>First we built a picture in my website</p>
-<img align="right" width="250" height="250" src="2020-04-22-qcc/me.jpg">]]></content>
-      <categories>
-        <category>Hexo</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>Hello World</title>
-    <url>/2020/04/16/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>
+    <title>How to use hexo to make a blog</title>
+    <url>/2020/04/22/How-to-use-hexo-to-make-a-blog/</url>
+    <content><![CDATA[<h2 id="The-Introduction-for-My-First-Blog"><a href="#The-Introduction-for-My-First-Blog" class="headerlink" title="The Introduction for My First Blog"></a>The Introduction for My First Blog</h2><p><img src="/images/2020-04-22-How-to-use-hexo-to-make-a-blog/1.png" alt=""></p>
+<p>Choose <i class="fa fa-tv"></i> <strong>Slide Mode</strong> in the top right sharing <i class="fa fa-share-alt fa-18"></i> menu and hit “<strong>Preview</strong>“ to see your slide.</p>
+<hr>
+<p>For feature details please visit:<br><a href="https://github.com/hakimel/reveal.js/" target="_blank" rel="noopener">https://github.com/hakimel/reveal.js/</a></p>
+<hr>
+<h2 id="The-Preparing-tools"><a href="#The-Preparing-tools" class="headerlink" title="The Preparing tools"></a>The Preparing tools</h2><p><strong>Operate system: Kali linux</strong></p>
+<ol>
+<li>Git-it</li>
+<li>Hexo</li>
+<li>Vscode</li>
+</ol>
+<hr>
+<h2 id="Install-Git"><a href="#Install-Git" class="headerlink" title="Install Git"></a>Install Git</h2><p>Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.</p>
+<p>Git is easy to learn and has a tiny footprint with lightning fast performance. It outclasses SCM tools like Subversion, CVS, Perforce, and ClearCase with features like cheap local branching, convenient staging areas, and multiple workflows.</p>
+<p>Because of my linux system, the all of the installation progress will be used by terminal. Now we install git.</p>
+<p> <code>sudo apt-get install git</code></p>
+<p>After the command running finish, you should check the git version to prove the git can work normally.</p>
+<p> <code>git --version</code></p>
+<p>then the terminal will show this result.</p>
+<p><img src="/images/2020-04-22-How-to-use-hexo-to-make-a-blog/2.png" alt=""></p>
+<hr>
+<h2 id="Install-Hexo"><a href="#Install-Hexo" class="headerlink" title="Install Hexo"></a>Install Hexo</h2><p>Hexo is a fast, simple &amp; powerful blog framework.</p>
+<p>First you must install npm.</p>
+<p> <code>sudo apt-get install npm</code></p>
+<p>Then you can use npm to insall hexo.</p>
+<p> <code>sudo npm install hexo-cli -g</code></p>
+<p>Now you installed Hexo and you can check the version of Hexo.</p>
+<p><code>hexo -v</code></p>
+<p><img src="/images/2020-04-22-How-to-use-hexo-to-make-a-blog/3.png" alt=""></p>
+<hr>
+<h2 id="Install-vscode"><a href="#Install-vscode" class="headerlink" title="Install vscode"></a>Install vscode</h2><p>vscode is a powerful editor for any computer language.</p>
+<p>First you should visit this web site.<br><a href="https://code.visualstudio.com/" target="_blank" rel="noopener">https://code.visualstudio.com/</a><br>Download the .deb file.</p>
+<p>Now you should upgrade you permission.,</p>
+<p><code>sudo chmod +x filename.deb</code></p>
+<p>and install this application.</p>
+<p><code>sudo dpkg -i filename.deb</code></p>
+<p>After command running, you can run <code>code</code> in your terminal, the vscode will be start.</p>
+<p><img src="/images/2020-04-22-How-to-use-hexo-to-make-a-blog/4.png" alt=""></p>
+<hr>
+<h2 id="Start-your-local-server"><a href="#Start-your-local-server" class="headerlink" title="Start your local server"></a>Start your local server</h2><p>First you need to create a folder to restore your local blog data. In here, I create this folder on my desktop.</p>
+<p><code>mkdir Desktop/hexo</code></p>
+<p>Next, you need to initialize your blog in this folder.</p>
+<p><code>hexo init blog</code></p>
 ]]></content>
+      <categories>
+        <category>Web</category>
+      </categories>
+      <tags>
+        <tag>hexo</tag>
+      </tags>
   </entry>
 </search>
