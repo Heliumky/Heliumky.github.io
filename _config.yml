@@ -1,0 +1,17 @@
+title: Jerry Chen's Blog
+description: Mathematics, Physics, Computer Science
+url: https://heliumky.github.io
+baseurl: ""
+author: Jerry Chen
+timezone: Asia/Taipei
+
+theme: minima
+permalink: /:year/:month/:day/:title/
+
+header_pages:
+  - about.md
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
