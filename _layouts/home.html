@@ -1,0 +1,71 @@
+---
+layout: default
+---
+
+<div class="home-shell">
+  <section class="home-hero" aria-labelledby="home-title">
+    <p class="home-kicker">Jerry Chen's notebook</p>
+    <h1 id="home-title">Ideas at the intersection of<br><em>physics and computation.</em></h1>
+    <p class="home-intro">Notes on quantum systems, numerical experiments, code, books, and the process of doing research.</p>
+    <a class="home-cta" href="#subjects">Explore the notes <span aria-hidden="true">↓</span></a>
+  </section>
+
+  <section class="subject-section" id="subjects" aria-labelledby="subject-title">
+    <div class="section-heading">
+      <div>
+        <p class="section-label">Browse by subject</p>
+        <h2 id="subject-title">Five threads, one notebook.</h2>
+      </div>
+      <p>Each post has a home. Choose a subject to start exploring.</p>
+    </div>
+
+    <div class="subject-grid">
+      {% for category in site.data.categories %}
+        {% assign category_posts = site.categories[category.name] %}
+        <a class="subject-card subject-card--{{ category.slug }}" href="#{{ category.slug }}">
+          <div class="subject-card__top">
+            <span class="subject-symbol" aria-hidden="true">{{ category.symbol }}</span>
+            <span class="subject-count">{{ category_posts.size | default: 0 }} {% if category_posts.size == 1 %}note{% else %}notes{% endif %}</span>
+          </div>
+          <h3>{{ category.name }}</h3>
+          <p>{{ category.description }}</p>
+          <span class="subject-arrow" aria-hidden="true">↗</span>
+        </a>
+      {% endfor %}
+    </div>
+  </section>
+
+  <section class="notes-section" aria-labelledby="notes-title">
+    <div class="section-heading section-heading--notes">
+      <div>
+        <p class="section-label">The archive</p>
+        <h2 id="notes-title">Notes by category</h2>
+      </div>
+    </div>
+
+    <div class="category-list">
+      {% for category in site.data.categories %}
+        {% assign category_posts = site.categories[category.name] %}
+        <section class="category-row" id="{{ category.slug }}" aria-labelledby="{{ category.slug }}-title">
+          <div class="category-row__title">
+            <span>{{ forloop.index | prepend: '0' }}</span>
+            <h3 id="{{ category.slug }}-title">{{ category.name }}</h3>
+          </div>
+          <div class="category-row__posts">
+            {% if category_posts.size > 0 %}
+              {% for post in category_posts %}
+                <article class="post-entry">
+                  <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %d, %Y" }}</time>
+                  <h4><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h4>
+                  {% if post.excerpt %}<p>{{ post.excerpt | strip_html | truncatewords: 22 }}</p>{% endif %}
+                </article>
+              {% endfor %}
+            {% else %}
+              <p class="empty-category">Notes for this shelf are on the way.</p>
+            {% endif %}
+          </div>
+        </section>
+      {% endfor %}
+    </div>
+  </section>
+</div>
