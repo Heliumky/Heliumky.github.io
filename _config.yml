@@ -11,6 +11,9 @@ permalink: /:year/:month/:day/:title/
 header_pages:
   - about.md
 
+include:
+  - _pdf
+
 exclude:
   - Gemfile
   - Gemfile.lock
