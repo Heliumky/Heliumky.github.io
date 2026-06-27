@@ -13,55 +13,55 @@ permalink: /about/
 - **Living in:** Taipei, Taiwan (台灣台北)
 - **Birthday:** 1998/04/16
 - **Blood type:** A
-- **Interests:** Running, table tennis, reading, and meditation
-- **Email:** [410514207@gms.ndhu.edu.tw](mailto:410514207@gms.ndhu.edu.tw)
+- **Interests:** Running, table tennis, reading, meditation
+- **Email:** [jerrychen@gapp.nthu.edu.tw](mailto:jerrychen@gapp.nthu.edu.tw)
 
 ---
 
 ## Education
 
-**2020–2022 (expected): M.S, Department of Applied Physics**; National Tsing Hua University (Taiwan-Hsinchu)
+**2026–Present — Ph.D., Department of Physics, National Tsing Hua University (Hsinchu, Taiwan)**
 
-*Research: Topological Materials; Quantum Entanglement*
+*Research: Strongly correlated systems; tensor networks; numerical simulations.*
 
-**2016–2020: B.S, Department of Physics**; National DongHwa University (Taiwan-Hualien)
+**2020–2023 — M.S., Department of Applied Physics, National Tsing Hua University (Hsinchu, Taiwan)**
 
-*Research: Quantum Dynamics; Bose-Einstein Condensat; Numerical Methods; FFT Matrix in Quantum Problem*
+*Research: Topological materials; lattice gauge theories.*
+
+**2016–2020 — B.S., Department of Physics, National Dong Hwa University (Hualien, Taiwan)**
+
+*Research: Quantum dynamics; Bose–Einstein condensates; numerical methods; FFT methods for quantum problems.*
 
 ## Experience
 
-**My Most Recent Work Experience:**
+**Research Assistant Positions**
 
-- A Summer researcher in SINICA
-- TA of Applied Mathematics
-- TA of TYPY
+- **2023–2025** Research Assistant, National Sun Yat-sen University
+- **2025–2026** Research Assistant, National Yang Ming Chiao Tung University (Hsinchu, Taiwan)
 
-**That Other Job I Had**
+## Projects
 
-- Cool-Travel Accounting Assistant
+- Ground-state of a binary BEC system
+- Parallel calculations for solving the Schrödinger equation
+- Quantic tensor trains
 
-## Technical Experience
+## Publications
 
-My Cool Side Project:
+- Chen, Y.-D., Li, W.-X., Sun, Y.-T., Chen, Q.-C., Chang, P.-Y., & Tung, S. (2023). Dual-species Bose–Einstein condensates of 7Li and 133Cs. Phys. Rev. A, 108(3), 033301. https://doi.org/10.1103/PhysRevA.108.033301
 
-- Ground-State of binary BEC system
-- Pallel Calculation for solving Schordinger equation
+- Chen, Q.-C., Liu, I., Li, J.-W., Chung, C.-M., et al. (2025). Solving the Gross–Pitaevskii equation with quantic tensor trains: Ground states and nonlinear dynamics. arXiv:2507.04279. https://arxiv.org/abs/2507.04279
 
-Open Source:
 
-- Prepare uploading.
+## Programming
 
-Programming Languages:
+- **Primary:** Python
+- **Proficient:** Julia, Fortran, C++
+- **Familiar:** Mathematica, MATLAB
 
-- **first-lang:** Python
-- **second-lang:** C-CUDA
-- Basic knowledge of **C**, **C++**, **Mathematica**, **Matlab**
+## Languages
 
-## Extra Section
-
-Human Languages:
-
-- Simplified Chinese (native speaker)
-- Tranditional Chinese
+- Simplified Chinese (native)
+- Traditional Chinese
+- Cantonese
 - English
-- Japanese (Studing)
+- Japanese (studying)
