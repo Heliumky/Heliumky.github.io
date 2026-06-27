@@ -13,7 +13,7 @@ This repository is a Jekyll site published automatically by GitHub Pages. Pages 
    title: My Post Title
    date: 2026-06-27 12:00:00 +0800
    categories:
-     - Notes
+     - Physics
    tags:
      - example
    ---
@@ -21,6 +21,8 @@ This repository is a Jekyll site published automatically by GitHub Pages. Pages 
 
 3. Write the post below the front matter using Markdown.
 4. Commit and push the file to the publishing branch. GitHub Pages builds and publishes it automatically.
+
+Use one of the homepage categories exactly as written: `Physics`, `Computer Science`, `Numerical Methods`, `Books`, or `Journal`. The category cards and post counts update automatically. Category names and descriptions live in `_data/categories.yml`.
 
 Images can be stored under `images/`. Reference them from Markdown with an absolute site path:
 

@@ -1,0 +1,24 @@
+- name: Physics
+  slug: physics
+  symbol: "φ"
+  description: Quantum matter, many-body systems, and ideas from modern physics.
+
+- name: Computer Science
+  slug: computer-science
+  symbol: "</>"
+  description: Programming, software tools, algorithms, and computational thinking.
+
+- name: Numerical Methods
+  slug: numerical-methods
+  symbol: "∆x"
+  description: Simulation techniques, scientific computing, and practical algorithms.
+
+- name: Books
+  slug: books
+  symbol: "¶"
+  description: Reading notes, reviews, and ideas worth returning to.
+
+- name: Journal
+  slug: journal
+  symbol: "···"
+  description: Research updates, personal reflections, and work in progress.
